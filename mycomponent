@@ -1,0 +1,14 @@
+function NewComponent(props){
+const myarray = props.array.map(good=>{(
+<ul>
+<li>名称：{array.name}</li>
+<li>价格：{array.price}</li>
+</ul>)});
+  return(
+    <div>
+      
+        {myarray}
+      
+    </div>
+  )
+}
